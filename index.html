@@ -4,82 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Marketing</title>
-    <style type="text/css">
-        /* Resets básicos para clientes de email */
-        body {
-            margin: 0;
-            padding: 0;
-            min-width: 100%;
-            background-color: #ffffff;
-        }
-        
-        table {
-            border-spacing: 0;
-            font-family: sans-serif;
-        }
-        
-        td {
-            padding: 0;
-        }
-        
-        img {
-            border: 0;
-            display: block;
-        }
-        
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            background-color: #ffffff;
-        }
-        
-        .main {
-            width: 600px;
-            margin: 0 auto;
-        }
-        
-        /* Regras para dispositivos móveis */
-        @media screen and (max-width: 600px) {
-            .main {
-                width: 100% !important;
-            }
-            
-            img {
-                width: 100% !important;
-                height: auto !important;
-            }
-        }
-    </style>
 </head>
-<body>
-    <center class="wrapper">
-        <table class="main" width="600" cellpadding="0" cellspacing="0" border="0">
-            <tr>
-                <td>
-                    <img src="./images/TOP.png" width="600" alt="Cabeçalho">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./images/SECTION 2 - LANCHONETE.png" width="600" alt="Seção Lanchonete">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./images/SECTION 3 - LIMPEZA 1.png" width="600" alt="Seção Limpeza 1">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./images/SECTION 3 LIMPEZA 2.png" width="600" alt="Seção Limpeza 2">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="./images/BOTTOM.png" width="600" alt="Rodapé">
-                </td>
-            </tr>
-        </table>
-    </center>
+<body style="margin: 0; padding: 0; background-color: #ffffff;">
+    <!-- Wrapper principal -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; font-family: Arial, sans-serif;">
+        <tr>
+            <td align="center" style="padding: 0;">
+                <!-- Tabela de conteúdo -->
+                <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;">
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <img src="./images/TOP.png" width="600" style="display: block; max-width: 100%; height: auto; border: 0;" alt="Cabeçalho">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <img src="./images/SECTION 2 - LANCHONETE.png" width="600" style="display: block; max-width: 100%; height: auto; border: 0;" alt="Seção Lanchonete">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <img src="./images/SECTION 3 - LIMPEZA 1.png" width="600" style="display: block; max-width: 100%; height: auto; border: 0;" alt="Seção Limpeza 1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <img src="./images/SECTION 3 LIMPEZA 2.png" width="600" style="display: block; max-width: 100%; height: auto; border: 0;" alt="Seção Limpeza 2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <img src="./images/BOTTOM.png" width="600" style="display: block; max-width: 100%; height: auto; border: 0;" alt="Rodapé">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
